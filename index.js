@@ -34,7 +34,7 @@ function main(event, context, callback) {
   const response = {
     statusCode: 200,
     body: JSON.stringify({
-      message: 'Go Serverless! Your function executed successfully!',
+      message: 'Go Serverless Workshop! Your function executed successfully!',
       input: event,
     }),
   };
